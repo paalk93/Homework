@@ -46,6 +46,9 @@ p{
 .margin1em{
   margin:1em;
 }
+.padding05em{
+  padding:0.5em;
+}
 .margin-left{
   margin-left:1em;
   margin-right:auto;

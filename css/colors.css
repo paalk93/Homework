@@ -8,3 +8,11 @@
 .border-1{
   border:solid 1px black;
 }
+
+th{
+  background-color: #4995b7;
+  padding:0.5em;
+}
+table{
+  border-collapse:collapse;
+}
