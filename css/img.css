@@ -1,0 +1,16 @@
+.img-max-size{
+  object-fit:scale-down;
+}
+
+.img-size-sm{
+  height:100px;
+  width:100px;
+}
+.img-size-md{
+  height:200px;
+  width:200px;
+}
+.img-size-lg{
+  height:300px;
+  width:300px;
+}

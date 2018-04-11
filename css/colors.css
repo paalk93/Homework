@@ -1,0 +1,10 @@
+.bg-primary{
+  background: linear-gradient(to right, #f2f8f9 , #75d5ff);
+}
+
+.bg-secondary{
+  background-color:#4995b7;
+}
+.border-1{
+  border:solid 1px black;
+}
