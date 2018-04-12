@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="../css/colors.css" rel="stylesheet">
+    <link href="../css/layout.css" rel="stylesheet">
+    <link href="../css/utility.css" rel="stylesheet">
+    <link href="../css/img.css" rel="stylesheet">
+    <link href="../css/components.css" rel="stylesheet">
+
+    <title>User page</title>
+  </head>
+
+
+  <body class="bg-primary">
+    <div class="viewport">
+      <div class="grid-layout-default">
+
+        <nav class="grid-area-navbar bg-secondary">
+          <div class="grid-vertical-split">
+            <div class="margin-left">
+              <h1>Welcome to our site</h1>
+            </div>
+            <div id="loginBox" class="loginContainer">
+              <div class="login-content bg-primary">
+                <span onclick="closeLogin()">Close</span>
+                <div class="text-align-center">
+                  <div>
+                    <input type="text" id="username" placeholder="Enter username">
+                  </div>
+                  <div>
+                    <input type="password" id="password" placeholder="Enter password">
+                  </div>
+                  <div>
+                    <button onclick="validate()">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="text-align-right">
+              <ul class="margin-top4em">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a onclick="openLogin()">Login</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <div class="grid-area-top-content margin-top1em">
+          <div class="grid-vertical-split">
+
+          </div>
+        </div>
+
+        <div class="grid-area-bottom-content">
+
+        </div>
+
+        <div class="grid-area-footer bg-secondary">
+
+        </div>
+
+
+
+      </div>
+    </div>
+    <script src="../javascript/main.js"></script>
+  </body>
+</html>

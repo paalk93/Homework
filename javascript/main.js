@@ -46,6 +46,10 @@ if ( username == "hei123" && password == "lol456"){
 alert ("Welcome "+ username);
   window.location = "user.html";
 }
+else if(username == "admin.hei123" && password == "admin.lol456"){
+  alert("Welcome "+ username);
+    window.location ="admin.html"
+}
  else{
    alert("Wrong login")
  }
