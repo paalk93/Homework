@@ -76,3 +76,6 @@ p{
   transition:.50s ease-in;
 }
 /* HIDDEN FOOTER END */
+.table-hidden{
+  display:none;
+}

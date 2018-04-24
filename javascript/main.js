@@ -56,6 +56,18 @@ else if(username == "admin.hei123" && password == "admin.lol456"){
 }
 // LOGIN FUNCTION END
 
+// TABS START
+function tab2(){
+  document.getElementById("table2").style.display = "block";
+  document.getElementById("table1").style.display ="none";
+}
+function tab1(){
+  document.getElementById("table1").style.display ="block";
+  document.getElementById("table2").style.display = "none";
+}
+
+// TABS END
+
 
 // COLOR CHANGE START
 // COLOR CHANGE END
