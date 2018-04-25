@@ -60,10 +60,14 @@ else if(username == "admin.hei123" && password == "admin.lol456"){
 function tab2(){
   document.getElementById("table2").style.display = "block";
   document.getElementById("table1").style.display ="none";
+  document.getElementsByClassName("button-style")[1].style.background = "white";
+  document.getElementsByClassName("button-style")[0].style.background = "#4995b7";
 }
 function tab1(){
   document.getElementById("table1").style.display ="block";
   document.getElementById("table2").style.display = "none";
+  document.getElementsByClassName("button-style")[0].style.background = "white";
+  document.getElementsByClassName("button-style")[1].style.background = "#4995b7";
 }
 
 // TABS END
