@@ -56,6 +56,10 @@ else if(username == "admin.hei123" && password == "admin.lol456"){
 }
 // LOGIN FUNCTION END
 
+
+
+
+
 // TABS START
 function tab2(){
   document.getElementById("table2").style.display = "block";
